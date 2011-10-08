@@ -1,0 +1,6 @@
+jersey-client: 1.9.1
+jersey-core: 1.9.1
+jersey-json: 1.9.1
+jettison:1.1
+junit: 4.10
+log4j: 1.2.16

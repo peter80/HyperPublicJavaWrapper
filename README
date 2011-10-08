@@ -1,0 +1,6 @@
+To use:
+1. Create Client Instance:
+	HPClient client = HPClient.create(YOUR_CLIENT_ID,YOUR_SECRET);
+2. Eg:
+	List<Place> places = client.findPlaces("lat=40.7&lon=-74.0");
+	
