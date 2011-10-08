@@ -23,6 +23,12 @@
 
 	<target name="dist" depends="compile" description="generate the distribution">
 		<mkdir dir="${dist}/lib" />
+		<delete>
+		    <fileset dir="${dist}/lib" includes="*.jar"/>
+		  </delete>
+		<copy todir="${dist}/lib">
+			<fileset dir="lib"/>
+		</copy>
 		<jar jarfile="${dist}/lib/HyperPublicJavaClient-${DSTAMP}.jar" basedir="${build}" />
 	</target>
 
