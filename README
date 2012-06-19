@@ -1,15 +1,13 @@
-HyperPublicJavaWrapper is a Java wrapper over the HyperPublic API that lets you query local places, deals, and events.
+<h2>About</h2>
+<p>HyperPublicJavaWrapper is a Java wrapper over the HyperPublic API that lets you query local places, deals, and events.</p>
 
-Running:
-From Eclipse:
-1. The HyperPublicJavaWrapper can be imported into Eclipse as a Java project.
-2. Run HPClientTest view usage or test the app.
-Outside Eclipse:
-1. You can build the app, using ant dist task.
-2. Add jar in the dist/lib dir.
-To use:
-1. Create Client Instance:
-	HPClient client = HPClient.create(YOUR_CLIENT_ID,YOUR_SECRET);
-2. Eg:
-	List<Place> places = client.findPlaces("lat=40.7&lon=-74.0");
+<h2>Usage</h2>
+<ol>
+<li>
+Create Client Instance: HPClient client = HPClient.create(YOUR_CLIENT_ID,YOUR_SECRET);
+</li>
+<li>Call API: List<Place> places = client.findPlaces("lat=40.7&lon=-74.0");
+</li>
+</ol>
+
 	
