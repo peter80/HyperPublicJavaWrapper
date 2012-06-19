@@ -1,3 +1,5 @@
+HyperPublicJavaWrapper is a Java wrapper over the HyperPublic API that lets you query local places, deals, and events.
+
 Running:
 From Eclipse:
 1. The HyperPublicJavaWrapper can be imported into Eclipse as a Java project.
