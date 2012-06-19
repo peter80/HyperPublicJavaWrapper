@@ -1,13 +1,11 @@
-<h2>About</h2>
-<p>HyperPublicJavaWrapper is a Java wrapper over the HyperPublic API that lets you query local places, deals, and events.</p>
+About
+=====
+HyperPublicJavaWrapper is a Java wrapper over the HyperPublic API that lets you query local places, deals, and events.
 
-<h2>Usage</h2>
-<ol>
-<li>
-Create Client Instance: HPClient client = HPClient.create(YOUR_CLIENT_ID,YOUR_SECRET);
-</li>
-<li>Call API: List<Place> places = client.findPlaces("lat=40.7&lon=-74.0");
-</li>
-</ol>
+Usage
+=====
+1. Create Client Instance: HPClient client = HPClient.create(YOUR_CLIENT_ID,YOUR_SECRET);
+2. Call API: List<Place> places = client.findPlaces("lat=40.7&lon=-74.0");
+
 
 	
